@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil\Labware\Lab13_DAC\Lab13.uvproj
+Project File Date:  03/13/2014
+
+<h2>Output:</h2>
+Rebuild target 'Lab13'
+assembling startup.s...
+compiling Lab13.c...
+Lab13.c(36): warning:  #223-D: function "Sound_Play" declared implicitly
+        Sound_Play(frequencies[in]);
+Lab13.c: 1 warning, 0 errors
+compiling Sound.c...
+Sound.c(27): error:  #20: identifier "Index" is undefined
+      Index = 0; 
+Sound.c(66): error:  #20: identifier "isSilent" is undefined
+      isSilent = 1;
+Sound.c(73): error:  #20: identifier "Index" is undefined
+    Index = (Index+1)&0x0F; // 4,5,6,7,7,7,6,5,4,3,2,1,1,1,2,3,...
+Sound.c: 0 warnings, 3 errors
+compiling DAC.c...
+DAC.c(42): warning:  #1-D: last line of file ends without a newline
+  }
+DAC.c: 1 warning, 0 errors
+compiling Piano.c...
+".\Lab13.axf" - 3 Error(s), 2 Warning(s).
+Target not created
+</pre>
+</body>
+</html>
+: 1 warning, 0 errors
+compiling Piano.c...
+".\Lab13.axf" - 3 Error(s), 3 Warning(s).
+Target not created
+Error(s), 3 Warning(s).
+Target not created
